@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/fab_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.apod.colin.apod.MAinActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/date1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2016 April 21"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/fab_margin"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Comet, the Owl, and the Galaxy"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/fab_margin"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/picture1"
+            android:contentDescription="@string/large_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/Comet_C2014"/>
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="@dimen/fab_margin"-->
+                <!--android:text="@string/large_text1"-->
+                <!--android:textSize="18sp"/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/date2"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="2016 April 20"-->
+                <!--android:textSize="18sp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_margin="@dimen/fab_margin"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/title2"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Galaxy Einstein Ring"-->
+                <!--android:textSize="25sp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_margin="@dimen/fab_margin"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/picture2"-->
+                <!--android:contentDescription="@string/large_text2"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:src="@drawable/three_worlds"/>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_margin="@dimen/fab_margin"-->
+                    <!--android:text="@string/large_text2"-->
+                    <!--android:textSize="18sp"/>-->
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/date3"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="2016 April 19"-->
+                    <!--android:textSize="18sp"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_margin="@dimen/fab_margin"-->
+                    <!--android:textStyle="bold" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/title3"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Andromeda Rising over Colombia"-->
+                    <!--android:textSize="25sp"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_margin="@dimen/fab_margin"-->
+                    <!--android:textStyle="bold" />-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/picture3"-->
+                    <!--android:contentDescription="@string/large_text3"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:src="@drawable/the_iris_nebula"/>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="vertical">-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_margin="@dimen/fab_margin"-->
+                        <!--android:text="@string/large_text3"-->
+                        <!--android:textSize="18sp"/>-->
+                <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
